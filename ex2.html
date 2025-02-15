@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียนศิษย์เก่า</title>
+</head>
+<body>
+    <a href="index.html">Home</a> 
+    <h1>แบบฟอร์มลงทะเบียนศิษย์เก่า</h1>
+    <form action="https://example.com" method="get">
+        <label>ชื่อ-นามสกุล:</label>
+        <input type="text" name="full_name"><br>
+
+        <label>รหัสนักศึกษา:</label>
+        <input type="text" name="student_code"><br>
+
+        <label>เพศ:</label>
+        <input type="radio" name="gender_choice" value="male">
+        <label>ชาย</label>
+        <input type="radio" name="gender_choice" value="female">
+        <label>หญิง</label><br>
+
+        <label>ปีที่เข้าเรียน:</label>
+        <input type="number" name="year_admitted"><br>
+
+        <label>ที่อยู่:</label><br>
+        <textarea name="residential_address" rows="2" cols="35"></textarea><br>
+        
+
+        <label>อีเมล:</label>
+        <input type="email" name="email_address"><br>
+
+        <label>เบอร์โทรศัพท์:</label>
+        <input type="tel" name="contact_number"><br>
+
+        <label>หลักสูตร:</label>
+        <select name="curriculum">
+            <option value="IT">IT</option>
+            <option value="IS">IS</option>
+        </select><br>
+
+        <label>อาชีพปัจจุบัน:</label>
+        <input type="text" name="current_occupation"><br>
+
+        <label>สถานที่ทำงาน:</label><br>
+        <textarea name="workplace_address" rows="2" cols="35"></textarea><br>
+
+        <label>ประเภทงาน:</label>
+        <select name="type_of_job">
+            <option value="web_dev">Web Developer</option>
+            <option value="system_analyst">SA</option>
+            <option value="graphic_designer">Graphic Design</option>
+            <option value="digital_marketer">Digital Marketing</option>
+        </select><br>
+
+        <label>รูปถ่าย:</label>
+        <input type="file" name="photo_upload"><br>
+
+        <button type="submit">ส่งข้อมูล</button>
+    </form>
+</body>
+</html>
